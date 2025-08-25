@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_correct">Correct</string>
+    <string name="toast_correct_tapped">Correct tapped</string>
+</resources>
+
