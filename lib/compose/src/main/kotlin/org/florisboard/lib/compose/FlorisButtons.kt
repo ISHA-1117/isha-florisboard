@@ -134,6 +134,23 @@ fun FlorisTextButton(
 }
 
 @Composable
+fun CorrectActionButton(
+    onClick: () -> Unit,
+    enabled: Boolean = true,
+    icon: ImageVector? = null, // replace with your correct icon
+    text: String = stringResource(R.string.action_correct),
+    modifier: Modifier = Modifier
+) {
+    FlorisIconButton(
+        onClick = onClick,
+        enabled = enabled,
+        icon = icon,
+        iconModifier = Modifier.size(24.dp), // customize size
+        iconColor = Color.Black // customize color
+    )
+}
+
+@Composable
 fun FlorisIconButton(
     onClick: () -> Unit,
     modifier: Modifier = Modifier,
